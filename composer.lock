@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27b5b661ae4fb785b182df56d4b8ede4",
+    "content-hash": "fb72bba8fe991861e9b6f57aa36fdad3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -241,16 +241,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "2.11.2",
+            "version": "2.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "b88a45cbc395e850b2d958dcd7b9d49d09ff23e0"
+                "reference": "fb5d5f2f26babf8dce217b1eb88300c22bb703a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/b88a45cbc395e850b2d958dcd7b9d49d09ff23e0",
-                "reference": "b88a45cbc395e850b2d958dcd7b9d49d09ff23e0",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/fb5d5f2f26babf8dce217b1eb88300c22bb703a4",
+                "reference": "fb5d5f2f26babf8dce217b1eb88300c22bb703a4",
                 "shasum": ""
             },
             "require": {
@@ -344,7 +344,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-19T02:01:37+00:00"
+            "time": "2020-10-20T14:36:48+00:00"
         },
         {
             "name": "doctrine/event-manager",
@@ -1196,6 +1196,66 @@
             "time": "2020-10-06T14:22:09+00:00"
         },
         {
+            "name": "laravel/sanctum",
+            "version": "v2.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/sanctum.git",
+                "reference": "43f05df591e5099563520ab018cca4ac383681cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/43f05df591e5099563520ab018cca4ac383681cd",
+                "reference": "43f05df591e5099563520ab018cca4ac383681cd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/contracts": "^6.9|^7.0|^8.0",
+                "illuminate/database": "^6.9|^7.0|^8.0",
+                "illuminate/support": "^6.9|^7.0|^8.0",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "^4.0|^5.0|^6.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Sanctum\\SanctumServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Sanctum\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+            "keywords": [
+                "auth",
+                "laravel",
+                "sanctum"
+            ],
+            "time": "2020-10-20T18:37:43+00:00"
+        },
+        {
             "name": "laravel/tinker",
             "version": "v2.4.2",
             "source": {
@@ -1644,16 +1704,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.41.3",
+            "version": "2.41.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e148788eeae9b9b7b87996520358b86faad37b52"
+                "reference": "6571aec754a648ef476a8d8f57993f7bc965afe4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e148788eeae9b9b7b87996520358b86faad37b52",
-                "reference": "e148788eeae9b9b7b87996520358b86faad37b52",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/6571aec754a648ef476a8d8f57993f7bc965afe4",
+                "reference": "6571aec754a648ef476a8d8f57993f7bc965afe4",
                 "shasum": ""
             },
             "require": {
@@ -1729,7 +1789,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-12T20:36:09+00:00"
+            "time": "2020-10-22T07:28:05+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -5008,22 +5068,22 @@
         },
         {
             "name": "facade/flare-client-php",
-            "version": "1.3.6",
+            "version": "1.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/flare-client-php.git",
-                "reference": "451fadf38e9f635e7f8e1f5b3cf5c9eb82f11799"
+                "reference": "fd688d3c06658f2b3b5f7bb19f051ee4ddf02492"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/451fadf38e9f635e7f8e1f5b3cf5c9eb82f11799",
-                "reference": "451fadf38e9f635e7f8e1f5b3cf5c9eb82f11799",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/fd688d3c06658f2b3b5f7bb19f051ee4ddf02492",
+                "reference": "fd688d3c06658f2b3b5f7bb19f051ee4ddf02492",
                 "shasum": ""
             },
             "require": {
                 "facade/ignition-contracts": "~1.0",
                 "illuminate/pipeline": "^5.5|^6.0|^7.0|^8.0",
-                "php": "^7.1",
+                "php": "^7.1|^8.0",
                 "symfony/http-foundation": "^3.3|^4.1|^5.0",
                 "symfony/mime": "^3.4|^4.0|^5.1",
                 "symfony/var-dumper": "^3.4|^4.0|^5.0"
@@ -5065,7 +5125,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-18T06:35:11+00:00"
+            "time": "2020-10-21T16:02:39+00:00"
         },
         {
             "name": "facade/ignition",
